@@ -14,7 +14,6 @@ while True:
         print("Your guess is too high.\nTry again.")
     elif user_guess == guess:
         print("Congratulations! You guessed the correct number.")
-        print("Thanks for playing the game!")
         break
     else:
         print("Invalid input. Please enter a number between 1 and 100.")
